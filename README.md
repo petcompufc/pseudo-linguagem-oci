@@ -2,10 +2,7 @@
 
 - Nesse documento está especificada o os detalhes referentes à pseudo-linguagem para as questões que possuem algoritmos na prova
 - Estamos nos baseando na linguagem **Python** por ser uma ferramenta mais conhecida dentre os estudantes de computação
-
-## Tabela de cola
-
-- Para um acesso facilitado às informações mais básicas da pseudo-linguagem, aqui está um *cheat sheet* que apresenta os pontos mais importantes com base na linguagem Python
+- Aqui está um *cheat sheet* que apresenta os pontos mais importantes com base na linguagem Python
 
 | Ação | Python | Pseudo-linguagem |
 | - | - | - |
@@ -21,4 +18,9 @@
 | Laço for (estilo C crescente) | <pre>for i in range(0,5):<br>  .<br>  .<br>  .</pre> | <pre>para i <- 0 até 5:<br>  .<br>  .<br>  .</pre>
 | Laço for (estilo C decrescente) | <pre>for i in range(5,0,-1):<br>  .<br>  .<br>  .</pre> | <pre>para i <- 5 até 0 decrescendo 1:<br>  .<br>  .<br>  .</pre>
 | Laço for (estilo C com passo diferente de 1, idem para decrescente) | <pre>for i in range(0,6,2):<br>  .<br>  .<br>  .</pre> | <pre>para i <- 0 até 6 crescendo 2:<br>  .<br>  .<br>  .</pre>
-TODO: Função, input, output
+| Declaração de função | <pre>def nomeFuncao(a, b):<br>  c = a + b</pre> | <pre>func nomeFuncao(a, b):<br>  c <- a + b</pre> |
+| Chamada de função | `nomeFuncao(a, b)` | `nomeFuncao(a, b)` |
+| Entrada de dados | `a = input('Insira valor de a')` | `a <- leia("Insira valor de a")` |
+| Saída de dados | `print(a)` | `escreva(a)` |
+
+- Esse documento pode ser alterado caso haja necessidade
